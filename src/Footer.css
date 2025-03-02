@@ -1,0 +1,15 @@
+.footer{
+
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+ 
+      width: 100%;
+
+    }
+
+}

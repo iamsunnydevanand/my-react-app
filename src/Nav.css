@@ -1,0 +1,139 @@
+body {
+
+    padding :0px;
+    margin: 0px;
+   
+  }
+  nav {
+    background-color:blueviolet;
+    
+    padding: 7px 120px;
+  
+  
+    display: flex;
+  
+  
+  gap: 20px ;
+
+  width: 100%;
+
+  }
+
+
+
+
+
+   nav span {
+    border: 1px solid white;
+    padding: 5px 22px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+ 
+      
+  }
+
+  .loginn{
+
+    border: 1px solid white;
+    padding: 4px 22px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+ nav span:hover {
+    color: purple;
+    background-color:white;
+  }
+  .search{
+  
+    border: none;
+  padding: 0px 43px;
+    outline-color:blueviolet;
+  width: 300px;
+  height: 30px;
+  
+  }
+  .search::placeholder{
+  margin: 0;
+
+    width: 300px;
+    height: 300px;
+    padding: 5px 0px;
+  
+  }
+  .img{
+
+    height: 37px;
+    width: 80px;
+    border-end-start-radius: 15px;
+background-color: black;
+    position: absolute;
+    left: 10px;
+
+    top:4px;
+    
+  }
+  .si{
+position: absolute;
+    height: 25px;
+left: 130px;
+top: 10px;
+width: 25px;
+  }
+
+
+
+  @media screen and (max-width:480px) {
+
+
+.search{
+
+  width: 185px;
+}
+
+
+
+.si{
+
+  left: 127px;
+}
+.search::placeholder{
+
+
+
+  width: 300px;
+  height: 300px;
+  padding: 5px 0px;
+  font-size: 12px;
+
+}
+
+
+    nav span{
+
+    display: none;
+    }
+.loginn{
+
+font-size: 12px;
+
+  display: block;
+  height: 30px;
+  padding: 6px 11px;
+}
+  
+    
+  }
+
+  .cash
+  {
+
+  position: relative;
+  top:1px;
+  background-color:blueviolet;
+  height:28px;
+  width: 28px;
+  }
+  

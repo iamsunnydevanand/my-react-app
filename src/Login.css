@@ -1,0 +1,192 @@
+
+
+.Login{
+
+position: absolute;
+left:400px;
+top: 120px;
+height: 500px;
+width: 750px;
+background-color:ghostwhite;
+border:1px solid  purple;
+display: flex;
+border-radius: 5px;
+user-select: none;
+}
+.in{
+
+
+    height: 500px;
+    width:320px;
+    background-color:blueviolet;
+    cursor: pointer;
+    
+}
+
+ .span1{
+
+    position: relative;
+    left: 70px;
+    top:130px;
+    border: 1px solid blueviolet;
+padding: 0px 18px;
+height: 24px;
+color:white;
+background-color:blueviolet;
+border-radius: 2px;
+cursor: pointer;
+user-select: none;
+}
+.span2{
+position: relative;
+top: 127px;
+left: 90px;
+padding:2px 22px;
+width: 190px;
+    height: 29px;
+    
+    border: none;
+    outline: none;
+    background-color: white;
+    border-bottom: 1px solid purple;
+    cursor: pointer;
+}
+.span3{
+
+   position:absolute;
+ left: 390px;
+   
+    top:190px;
+    border: 1px solid blueviolet;
+padding: 0px 6px;
+height: 24px;
+color:white;
+background-color:blueviolet;
+border-radius: 2px;
+user-select: none;
+cursor: pointer;
+
+}
+.span4{
+position: absolute;
+top: 189px;
+left: 488px;
+padding:2px 22px;
+width: 190px;
+    height: 29px;
+    
+    border: none;
+    outline: none;
+    background-color: white;
+    border-bottom: 1px solid purple;
+    cursor: pointer;
+}
+
+ .sign{
+
+    height: 27px;
+    padding: 0px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding:0px 18px;
+    outline: none;
+    position: absolute;
+    left: 450px;
+    top: 250px;
+    cursor: pointer;
+}
+
+
+.re{
+    position: absolute;
+    height: 27px;
+    padding: 0px;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    padding:0px 18px;
+
+    left: 545px;
+    top: 250px;
+ border: none;
+
+
+
+}
+
+@media screen and (max-width:480px) {
+
+
+.Login{
+
+    position: absolute;
+    left: 3px;
+    height: 400px;
+    width: 380px;
+}
+.span1{
+
+    top:128px;
+    width: 80px;
+left: 28px;
+padding:0px 18px;
+border-radius: 0px;
+}
+.span2{
+  
+    left: 48px;
+    width: 134px;
+    background-color:beige;
+}
+.span2::placeholder{
+
+    font-size: 10px;
+    padding: 0px;
+}
+
+.span3{
+border-radius: 0px;
+ 
+    left: 128px;
+    width: 80px;
+    padding:0px 5px;
+    
+}
+.span4{  
+    left: 228px;
+    width: 134px;
+    background-color: beige;
+    
+
+}
+.span4::placeholder{
+padding:0px;
+    font-size: 10px;
+}
+
+    .sign{width: 100%;}
+
+
+    .re{
+        width: 80px ;
+        padding: 0px ;
+        left: 128px;
+
+padding:0px ;
+    }
+    .sign{
+
+        width: 80px;
+        left: 230px;
+        padding:0px
+    }
+
+
+.in{
+
+    width: 100px;
+    height: 400px;
+}
+
+}

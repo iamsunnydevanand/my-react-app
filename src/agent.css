@@ -1,0 +1,238 @@
+
+
+.Agent{
+
+position:absolute;
+left: 900px;
+top:101px;
+    background-color:blueviolet;
+    height: 463px;
+    width: 359px;
+    border-radius:7px;
+
+border: none;
+ 
+
+}
+.Agent input{
+
+    position: relative;
+    left: 20px;
+    top: 420px;
+    height: 30px;
+    width: 210px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color:white;
+  
+
+}
+
+.Agent input::placeholder{
+
+ 
+ 
+    padding: 3px 12px;
+  
+
+
+font-family: monospace;
+}
+.Agent button{
+
+    position:absolute;
+
+
+right: 17px;
+top:421px;
+    width: 100px;
+    height: 32px;
+    font-size: 12px;
+    font-family:monospace;
+    border-radius:10px;
+    border:none;
+    outline:none;
+
+
+background-color: #ddd;
+
+color:black;
+}
+
+
+.box1{
+
+
+    position:absolute;
+    top: 300px;
+    height: 50px;
+    width: 361px;
+    background-color: red;
+    
+}
+.box1 h1{
+
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+.nn{
+
+
+    position:absolute;
+    left: 900px;
+    top:100px;
+        height: 401px;
+        width: 359px;
+        border-radius:7px;
+   
+     
+   
+
+overflow:auto;
+overflow: hidden;
+
+
+}
+.nn:hover{
+
+    overflow-y: scroll;
+}
+.d{
+
+position:relative;
+bottom: 0px;
+
+    width: 359px;
+height: 50px;
+
+    background-color:#ddd;
+    border-bottom:1px solid #111 ;
+
+
+
+    
+
+}
+.dh{
+    position:relative;
+    bottom: 0px;
+    
+        width: 359px;
+    height: 50px;
+    
+        background-color:#fefefe;
+        border-bottom:1px solid #111 ;
+    
+
+}
+.dh span{
+
+
+    position: relative;
+    left: 10px;
+
+    top: 5px;
+    font-family:arial;
+color:navy;
+font-weight: 500;
+}
+
+
+.d span{
+
+    position: relative;
+    left: 10px;
+
+    top: 5px;
+    font-family:arial;
+color:navy;
+font-weight: 500;
+}
+
+
+  
+  
+  .bot-message {
+    background-color: #ddd;  /* Gray for bot */
+    color: black;
+    text-align: left;
+    align-self: flex-start;
+  }
+  
+
+
+.dl{
+    position:relative;
+    bottom: 0px;
+    
+        width: 359px;
+    height: 50px;
+    
+        background-color:#984;
+        border-bottom:1px solid #111 ;
+    
+
+}
+.dl span{ 
+
+    position: relative;
+    left: 10px;
+
+    top: 5px;
+    font-family:arial;
+color:black;
+font-weight: 500;
+}
+
+
+.ds{
+    position: relative;
+
+left: 0px;
+    width: 359px;
+    height: 50px;
+
+        background-color:blueviolet;
+      border: none;
+          
+}
+
+.ds2{
+
+    width: 359px;
+    height: 50px;
+    gap: 20px;
+    background-color:grey;
+    padding: 5px 10px;
+    border-bottom: 1px solid black;
+
+
+
+}
+.ds2 span{
+
+    color :white;
+}
+
+.ds1{
+
+    width: 359px;
+    height: 50px;
+  
+       background-color: blueviolet;
+        
+
+       
+}
+.ds1 span{
+position: relative;
+    left: 10px;
+
+    top: 5px;
+    font-family:arial;
+color:navy;
+font-weight: 500;
+}
+
