@@ -13,7 +13,7 @@ function Agent() {
 
     try {
       const response = await axios.post(
-        "backend-production-0c401.up.railway.app/me", 
+        "https://backend-production-0c401.up.railway.app/me", 
         { dev: dev }, 
         { headers: { "Content-Type": "application/json" } }
       );
